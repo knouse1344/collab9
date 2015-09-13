@@ -1,0 +1,808 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+ /*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*html5 display rule*/
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+
+/*html 5 tags*/
+
+ @font-face {
+        font-family: "Open Sans Light";
+        src: url('fonts/OpenSans-Light.eot');
+        src: url('fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/OpenSans-Light.svg#Open Sans Light') format('svg'),
+        url('fonts/OpenSans-Light.woff') format('woff'),
+        url('fonts/OpenSans-Light.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+/*@font-face {
+        font-family: "avenir-book_0-webfont";
+        src: url('fonts/avenir-book_0-webfont.eot');
+        src: url('fonts/avenir-book_0-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/avenir-book_0-webfont.svg#Open Sans Light') format('svg'),
+        url('fonts/avenir-book_0-webfont.woff') format('woff'),
+        url('fonts/avenir-book_0-webfont.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }	*/
+
+html
+{
+	height:100%;
+	}
+h1
+{
+	font-family: "Open Sans Light";
+	font-size:40px;
+	font-weight:600;
+	color:#484747;
+	margin:0;
+	padding:0;
+	padding: 0 0 20px !important;
+	
+	
+	float:left;
+	width:100%;
+	background-image:url(/sites/collab9/images/seperator.png) !important;
+	background-repeat:repeat-x;
+	background-position:left bottom;
+	padding:20px 0 10px;
+	
+	
+}
+h2
+{
+	font-family: "Open Sans";
+	font-size:30px;
+	font-weight:normal;
+	color:#94BD3C;
+	margin:0;
+	padding:0;
+}
+h3
+{
+	font-family: "Open Sans";
+	font-size:25px;
+	font-weight:normal;
+	color:#94BD3C;
+	margin:0;
+	padding:0;
+}
+
+h4
+{
+	 font-family: "Open Sans";
+	font-size:22px;
+	font-weight:normal;
+	color:#fff;
+	margin:0;
+	padding:0;
+}
+	li {
+	font-family: "Open Sans";
+	font-size:14px;
+	text-decoration:none;
+	list-style:none;
+	color:#484747;
+
+}
+
+p
+{
+	font-family: "Open Sans";
+	font-size:14px;
+	color:#484747;
+	line-height:22px;
+	
+}
+
+	
+
+ 
+	
+ body
+{
+	height:100%;
+	background-color:#fdfdfd;
+	/*background-image:url(/sites/collab9/images/bg_site.png);
+	background-position:left top;
+	background-repeat:repeat;*/
+
+}
+
+#page {
+	/*background-image: url(/sites/collab9/images/cloud_top_bg.png);
+	
+	background-repeat: repeat-x;
+	background-position: center top;*/
+	height:250px;
+	
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+
+#section-header {
+    padding-top: 20px;
+}
+
+
+#nice-menu-2 
+{
+	 margin: 0px;
+	 margin-left: 9%;
+}
+
+#nice-menu-2 a
+{
+
+	color:#929292;
+	text-decoration:none;
+	
+}
+
+
+
+#nice-menu-2 a:hover
+{
+
+	color:#94BD3C;
+	
+	
+	
+}
+
+#nice-menu-2 ul
+{
+	margin:0;
+	padding:0;
+}
+
+ul.nice-menu li a {
+padding-top:55px;
+}
+
+ul.nice-menu li {
+ 
+    padding: 5px;
+    
+}
+
+
+
+ul.nice-menu li{
+background-color: transparent;
+}
+
+ul.nice-menu-down li.menuparent {
+background-color: transparent;
+}
+ul.nice-menu-down li.menuparent:hover {
+background-color: transparent;
+}
+
+ul.nice-menu ul {
+
+background-color: #e0e0e0;
+
+
+
+}
+ul.nice-menu ul li a{
+ border-bottom: 1px solid #CCCCCC;
+    font-size: 12px;
+    margin: 0;
+    padding: 10px 0 10px 12px !important;
+	
+	
+	
+}
+
+ul.nice-menu ul li a:hover
+{
+background-color:#94BD3C;
+color:#fff !important;
+}
+
+#nice-menu-2 ul {
+    margin: 62px 0 0;
+    
+    text-align: left;
+}
+
+
+.nice-menu > ul {
+margin:0px;
+padding:0px;
+
+}
+
+.nice-menu > ul > li
+{
+}
+
+ul.nice-menu-down li li{
+border:none !important;
+padding:0 !important
+}
+.home_ico
+{
+	background-image:url(/sites/collab9/images/Home_icon_act.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	
+	padding:0 0 10px 0;
+}
+.home_ico:hover
+{
+	background-image:url(/sites/collab9/images/Home_icon.png);
+}
+.ser_ico
+{
+	background-image:url(/sites/collab9/images/Services_icon.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+
+}
+.ser_ico:hover
+{
+	background-image:url(/sites/collab9/images/Services_icon_hov.png);
+}
+.par_ico
+{
+	background-image:url(/sites/collab9/images/Partner_icon.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+
+}
+.par_ico:hover
+{
+	background-image:url(/sites/collab9/images/Partner_icon_hov.png);
+}
+.abt_ico
+{
+	background-image:url(/sites/collab9/images/About_icon.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+
+}
+.abt_ico:hover
+{
+	background-image:url(/sites/collab9/images/About_icon_hov.png);
+}
+.Mail_icon
+{
+	background-image:url(/sites/collab9/images/Mail_icon.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+
+}
+.Mail_icon:hover
+{
+	background-image:url(/sites/collab9/images/Mail_icon_hov.png);
+}
+.blog_icon
+{
+	background-image:url(/sites/collab9/images/blog-ico.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+
+}
+.sector_icon
+{
+	background-image:url(/sites/collab9/images/Sector_icon.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+
+}
+.sector_icon:hover
+{
+	background-image:url(/sites/collab9/images/Sector_icon_hov.png);
+}
+
+.cis-logo {
+	padding-top: 25px;
+	background-position: right center;
+	margin: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 35px;
+	width:auto;
+}
+
+.cis-logo img{
+width: 95%;
+}
+
+.logo-img {
+   
+    margin-top: 0px;
+}
+
+.logo-img img {
+    width: auto;
+}
+
+
+#first-time
+{
+display:none;
+}
+
+.end_reseller
+{
+	float:left;
+	width:100%;
+	margin:70px 0 50px 0;
+	text-align:center;
+}
+.end_reseller img
+{
+	display:inline-block;
+	margin:0 18px;
+
+}
+
+.wel_con
+{
+	float:left;
+	width:100%;
+	margin:40px 0 0 0;
+}
+.wel_con > h1
+{
+	text-align:left;
+	
+}
+.wel_con em
+{
+	font-style:normal;
+	color:#94bd3c;
+}
+.wel_con img
+{
+	float:left;
+	border:8px solid #fff;
+	margin:13px  0 0 0;
+	width:26.50%;
+}
+
+.wel_con_content
+{
+	float:right;
+	width:98%;
+	padding:0 2% 0 0;
+}
+.wel_con_content h1
+{
+	background-image:none;
+	padding:0;
+	text-align:center;
+}
+.wel_con_content p
+{
+	margin:15px 0 0 0;
+	float:left;
+	width:96%;
+	text-align:center;
+	padding:5px 2%;
+		font-size:16px;
+	line-height:25px;
+}
+
+.wel_con_content ul
+{
+	margin:0;
+	padding:0;
+	display:block;
+	float:left;
+	margin:15px 4% 0 0;
+	width:30%;
+}
+.wel_con_content ul li
+{
+	float:none;
+	text-decoration:none;
+	display:block;
+	border-bottom:1px solid #93bc3c;
+	width:100%;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background-image:url(/sites/collab9/images/Arrow_bullet.png);
+	background-repeat:no-repeat;
+	background-position:center left;
+
+}
+.wel_con_content ul a
+{
+	font-family: "Open Sans";
+	text-decoration:none;
+	color:#93bc3c;
+	font-size:16px;
+	padding:10px 0 10px 25px;
+	display:block;
+
+}
+.wel_con_content ul a:hover
+{
+	color:#FF5200;
+}
+.sep_hr
+{
+	float:left;
+	width:100%;
+	background-image:url(/sites/collab9/images/seperator.png);
+	background-repeat:repeat-x;
+	background-position:center left;
+	padding:70px 0 10px;	
+
+}
+
+.sep_hr_bt
+{
+	float:left;
+	width:100%;
+	background-image:url(/sites/collab9/images/seperator.png);
+	background-repeat:repeat-x;
+	background-position:center left;
+	padding:30px 0 10px;	
+
+}
+
+.partners
+{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.partners h1
+{
+	display:block;
+	margin:0 0 15px 0;
+
+}
+.partners a
+{
+	display:inline-block;
+	margin:0 2%;
+}
+
+
+.footer
+{
+	float:left;
+	width:100%;
+}
+.footer .ft_bt_lk
+{
+	float:left;
+	width:100%;
+}
+.footer .ft_bt_lk ul
+{
+	margin:0 7% 0 0;
+	padding:0;
+	width:25%;
+	display:block;
+	float:left;
+}
+
+.footer .ft_bt_lk ul li
+{
+	display:block;
+	border-bottom:1px solid #b4b4b4;
+	padding:6px 0;
+	
+
+}
+.footer .ft_bt_lk ul li.bt_title
+{
+	border:none;
+}
+.footer .ft_bt_lk ul li em
+{
+	border:none;
+	font-style:normal;
+	font-size:18px;
+	color:#484747;
+	font-family: "Open Sans";
+}
+
+.footer .ft_bt_lk ul li a
+{
+	color:#484747;
+	text-decoration:none;
+	font-size:14px;
+}
+.footer .ft_bt_lk ul li a:last-child
+{
+	border:none;
+}
+.footer .ft_bt_lk ul li a:hover
+{
+	color:#94BD3C;
+}
+.soc_new_lt
+{
+	float:right;
+	width:100%;
+	margin:12px 0 0 0;
+}
+.soc_new_lt  > ul
+{
+	margin:0 0 10px 0;
+	padding:0;
+	width:100%;
+	display:block;
+	float:left;
+}
+.soc_new_lt  > ul > li
+{
+	float:left;
+}
+.soc_new_lt  > ul > li > p
+{
+	padding:18px 0 0 20px;
+}
+.soc_new_lt  > ul > li > p a
+{
+	color:#484747;
+	text-decoration:none ;
+}
+.soc_new_lt  > ul > li > p a:hover
+{
+	color:#94BD3C;
+}
+.new_lt
+{
+	float:left;
+	width:100%;
+	background-color:#fff;
+	margin:10px 0 0 0;
+	background-color:#e7e8e9;
+	
+	
+}
+.new_lt input[type="text"]
+{
+	background-color:transparent;
+	border:none;
+	width:35%;
+	padding:12px 0 12px 12px;
+	color:#484747;
+}
+.new_lt input[type="button"]
+{
+	float:right;
+	background-color:#94bd3c;
+	border:none;
+	cursor:pointer;
+	color:#FFFFFF;
+	padding:11px 8px;
+}
+
+.cop_rgt
+{
+	float:left;
+	width:100%;
+	text-align:center;
+	margin:0 0 50px 0;
+}
+.soc_new_lt ul li{
+list-style:none;
+}
+
+.form-item-search-block-form input[type="text"]
+{
+	background-color:#e7e8e9;
+	border:none;
+	width:65%;
+	padding:6px 0 4px 12px;
+	color:#484747;
+	height:42px;
+}
+.form-actions input[type="submit"]
+{
+	float:right;
+	background-color:#94bd3c;
+	border:none;
+	cursor:pointer;
+	color:#FFFFFF;
+	padding:9px 8px;
+	background-image:none;
+	border-radius: 0px;
+	font-size:16px;
+	font-family:"Open Sans";
+	text-shadow: none;
+	margin:0;
+}
+
+.search-form {
+    background-color: #E7E8E9;
+    margin-bottom: 1em;
+}
+
+.block-nice-menus {
+    display: block;
+}
+.immersive_slider {
+    height: 370px !important;
+
+}
+
+ul.nice-menu-down li.menuparent:hover {
+    
+    background-position: center bottom;
+}
+
+ul.nice-menu-down li.menuparent {
+    
+    background-position: center bottom;
+}
+
+ul.nice-menu-down .menuparent a {
+    padding-right: 0px;
+}
+
+
+.hcs_img
+{
+	float:left;
+	width:100%;
+	text-align:center;	
+}
+.hcs_img img
+{
+	width:70%;
+	height:auto;
+}
+.signup_newsletter
+{
+	float:left;
+	padding:10px;
+}
+.signup_newsletter a
+{
+	display:block;
+	background-image:url(/sites/collab9/images/new_icon.png);
+	background-repeat:no-repeat;
+    font-family: "Open Sans";
+	color:#484747;
+	font-size:14px;
+	text-decoration:none;
+	padding:0 0 0 35px;
+}
+.signup_newsletter a:hover
+{
+	color:#94BD3C;
+}
+/*22-05-2014*/
+/*****************************new styles rizwan*************************/
+
+.deal_registration
+{
+	float:left;
+	padding:10px;
+}
+.deal_registration a
+{
+	display:block;
+	background-image:url(/sites/collab9/images/deal_icon.png);
+	background-repeat:no-repeat;
+    font-family:"Open Sans" ;
+	color:#484747;
+	font-size:14px;
+	text-decoration:none;
+	padding:0 0 0 35px;
+}
+
+
+.reseller
+{
+	float:left;
+	padding:10px;
+}
+.reseller a
+{
+	display:block;
+	background-image:url(/sites/collab9/images/reseller_icon.png);
+	background-repeat:no-repeat;
+    font-family:"Open Sans" ;
+	color:#484747;
+	font-size:14px;
+	text-decoration:none;
+	padding:0 0 0 35px;
+}
+
+
+
+/*22-05-2014*/
+/*****************************new styles rizwan*************************/
+ul#bd_txt
+{
+	float: left;
+	display: block;
+	width: 67%;
+	margin:0 !important;
+	padding:0 10px 0 0 !important;
+}
+.video
+{
+	float:left;
+	width:96%;
+	text-align:center;
+	padding:10px 2%;
+}
+.video img
+{
+	width:100%;
+}
+.readmore a
+{
+    background: none repeat scroll 0 0 #94BD3C;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    margin: 13px 0 0;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.field-item p
+{
+	font-family: "Open Sans";
+	font-size: 16px !important;
+	color: #484747;
+	line-height: 26px;	
+	margin:12px 0;
+	text-align:justify;
+}
+#edit-subscriptions {
+
+    float: left;
+
+    width: 100%;
+
+}
+
+
+.region-inner h1
+{
+	display:block;
+	margin:0 0 10px 0 !important;
+   font-family: "Open Sans" !important;
+   font-weight: 400;
+}
+#search-block-form
+input[type="submit"] {
+float: right;
+background-color: #94bd3c;
+border: none;
+cursor: pointer;
+color: #FFFFFF;
+padding: 11px 14px;
+background-image: none;
+border-radius: 0px;
+font-size: 16px;
+font-family: "Open Sans";
+text-shadow: none;
+margin: 0;
+}
+
+/*Home video*/
+.home-video { margin:0 auto; max-width:680px; height:auto;}
+.title-vid { text-align:center; margin-bottom:20px;}
+.fluid-width-video-wrapper { float:left; width:100%;}
+/*Home video*/
