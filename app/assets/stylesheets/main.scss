@@ -1,3 +1,131 @@
 // Place all the styles related to the Main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.us-seg-con {
+
+	h2 {
+		font-family: "Open Sans";
+	}
+}
+
+#nice-menu-2 {
+
+	a {
+		font-family: 'Open Sans';
+	}
+}
+
+#section-content {
+
+	.zone {
+
+		.block-inner {
+
+			.content {
+
+
+				.welcome-banner {
+					padding: 0;
+					background: transparent;
+					background-image: none;
+					min-height: auto;
+
+					img {
+						display: block;
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.we-ban {
+			width: 75%;
+			text-align: center;
+			margin: 2em auto 4em;
+
+			h1 {
+				background-image: none !important;
+				margin: 0;
+				font-family: 'Open Sans' !important;
+
+			}
+
+			p {
+				font-size: 1.5em;
+				font-family: 'Open Sans';
+				line-height: 1.5em;
+			}
+		}
+	}
+}
+.section-footer {
+
+	.footer {
+
+		.ft_bt_lk {
+
+			ul {
+
+				li {
+
+					em {
+						font-family: 'Open Sans';
+					}
+
+					a {
+						font-family: 'Open Sans';
+					}
+
+					p {
+						font-family: 'Open Sans';
+
+						a {
+							font-family: 'Open Sans';
+						}
+					}
+				}
+			}
+		}
+
+		.soc_new_lt {
+
+			ul {
+
+				li {
+
+					p {
+						font-family: 'Open Sans';
+
+						a {
+							font-family: 'Open Sans';
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.block {
+
+		.block-inner {
+
+			.search-form {
+
+				.form-text, .form-submit {
+					font-family: 'Open Sans' !important;
+					font-weight: 400;
+				}
+			}
+
+			.cop_rgt {
+
+				p {
+					font-family: 'Open Sans';
+				}
+			}
+		}
+	}
+}

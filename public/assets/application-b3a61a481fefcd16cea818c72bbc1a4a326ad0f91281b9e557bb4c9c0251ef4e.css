@@ -320,12 +320,13 @@ padding:0 !important
 	margin: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
-	padding-left: 35px;
+	padding-left: 0;
 	width:auto;
+	text-align: center;
 }
 
 .cis-logo img{
-width: 95%;
+
 }
 
 .logo-img {
@@ -5967,6 +5968,80 @@ p,
 .hvr-curl-bottom-left:hover:before, .hvr-curl-bottom-left:focus:before, .hvr-curl-bottom-left:active:before {
   width: 25px;
   height: 25px;
+}
+/* line 9, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+.us-seg-con h2 {
+  font-family: "Open Sans";
+}
+
+/* line 16, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+#nice-menu-2 a {
+  font-family: 'Open Sans';
+}
+
+/* line 30, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+#section-content .zone .block-inner .content .welcome-banner {
+  padding: 0;
+  background: transparent;
+  background-image: none;
+  min-height: auto;
+}
+/* line 36, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+#section-content .zone .block-inner .content .welcome-banner img {
+  display: block;
+  width: 100%;
+}
+/* line 44, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+#section-content .zone .we-ban {
+  width: 75%;
+  text-align: center;
+  margin: 2em auto 4em;
+}
+/* line 49, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+#section-content .zone .we-ban h1 {
+  background-image: none !important;
+  margin: 0;
+  font-family: 'Open Sans' !important;
+}
+/* line 56, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+#section-content .zone .we-ban p {
+  font-size: 1.5em;
+  font-family: 'Open Sans';
+  line-height: 1.5em;
+}
+
+/* line 74, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+.section-footer .footer .ft_bt_lk ul li em {
+  font-family: 'Open Sans';
+}
+/* line 78, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+.section-footer .footer .ft_bt_lk ul li a {
+  font-family: 'Open Sans';
+}
+/* line 82, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+.section-footer .footer .ft_bt_lk ul li p {
+  font-family: 'Open Sans';
+}
+/* line 85, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+.section-footer .footer .ft_bt_lk ul li p a {
+  font-family: 'Open Sans';
+}
+/* line 99, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+.section-footer .footer .soc_new_lt ul li p {
+  font-family: 'Open Sans';
+}
+/* line 102, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+.section-footer .footer .soc_new_lt ul li p a {
+  font-family: 'Open Sans';
+}
+/* line 117, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+.section-footer .block .block-inner .search-form .form-text, .section-footer .block .block-inner .search-form .form-submit {
+  font-family: 'Open Sans' !important;
+  font-weight: 400;
+}
+/* line 125, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+.section-footer .block .block-inner .cop_rgt p {
+  font-family: 'Open Sans';
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
