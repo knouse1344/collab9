@@ -33,6 +33,15 @@
 					background-image: none;
 					min-height: auto;
 
+					.player {
+						width: auto;
+
+						.controls {
+							top: 1em;
+							bottom: auto;
+						}
+					}
+
 					img {
 						display: block;
 						width: 100%;
@@ -173,7 +182,7 @@
 				.content {
 
 					.welcome-banner {
-						width: 960px;
+						width: 75%;
 						margin: 2em auto;
 						float: none;
 					}
@@ -195,7 +204,7 @@
 				.content {
 
 					.welcome-banner {
-						width: 720px;
+						width: 75%;
 						margin: 2em auto;
 						float: none;
 					}

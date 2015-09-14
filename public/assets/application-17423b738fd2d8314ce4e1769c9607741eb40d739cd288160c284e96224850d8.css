@@ -5987,69 +5987,78 @@ p,
   min-height: auto;
 }
 /* line 36, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+#section-content .zone .block-inner .content .welcome-banner .player {
+  width: auto;
+}
+/* line 39, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+#section-content .zone .block-inner .content .welcome-banner .player .controls {
+  top: 1em;
+  bottom: auto;
+}
+/* line 45, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 #section-content .zone .block-inner .content .welcome-banner img {
   display: block;
   width: 100%;
 }
-/* line 48, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 57, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 #section-content .zone .user-seg .usg-tit a {
   font-family: 'Open Sans';
 }
-/* line 54, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 63, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 #section-content .zone .we-ban {
   width: 75%;
   text-align: center;
   margin: 2em auto 4em;
 }
-/* line 59, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 68, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 #section-content .zone .we-ban h1 {
   background-image: none !important;
   margin: 0;
   font-family: 'Open Sans' !important;
 }
-/* line 66, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 75, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 #section-content .zone .we-ban p {
   font-size: 1.5em;
   font-family: 'Open Sans';
   line-height: 1.5em;
 }
 
-/* line 84, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 93, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .footer .ft_bt_lk ul li em {
   font-family: 'Open Sans';
 }
-/* line 88, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 97, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .footer .ft_bt_lk ul li a {
   font-family: 'Open Sans';
 }
-/* line 92, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 101, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .footer .ft_bt_lk ul li p {
   font-family: 'Open Sans';
 }
-/* line 95, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 104, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .footer .ft_bt_lk ul li p a {
   font-family: 'Open Sans';
 }
-/* line 109, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 118, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .footer .soc_new_lt ul li p {
   font-family: 'Open Sans';
 }
-/* line 112, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 121, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .footer .soc_new_lt ul li p a {
   font-family: 'Open Sans';
 }
-/* line 127, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 136, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .block .block-inner .search-form .form-text, .section-footer .block .block-inner .search-form .form-submit {
   font-family: 'Open Sans' !important;
   font-weight: 400;
 }
-/* line 135, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 144, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .block .block-inner .cop_rgt p {
   font-family: 'Open Sans';
 }
 
 @media (min-width: 1220px) {
-  /* line 154, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+  /* line 163, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
   #section-content .zone .block-inner .content .welcome-banner {
     width: 1200px;
     margin: 2em auto;
@@ -6057,17 +6066,17 @@ p,
   }
 }
 @media (min-width: 980px) and (max-width: 1220px) {
-  /* line 175, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+  /* line 184, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
   #section-content .zone .block-inner .content .welcome-banner {
-    width: 960px;
+    width: 75%;
     margin: 2em auto;
     float: none;
   }
 }
 @media (min-width: 740px) and (max-width: 960px) {
-  /* line 197, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+  /* line 206, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
   #section-content .zone .block-inner .content .welcome-banner {
-    width: 720px;
+    width: 75%;
     margin: 2em auto;
     float: none;
   }
