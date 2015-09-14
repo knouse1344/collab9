@@ -6047,6 +6047,31 @@ p,
 .section-footer .block .block-inner .cop_rgt p {
   font-family: 'Open Sans';
 }
+
+@media (min-width: 1220px) {
+  /* line 154, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+  #section-content .zone .block-inner .content .welcome-banner {
+    width: 1200px;
+    margin: 2em auto;
+    float: none;
+  }
+}
+@media (min-width: 980px) and (max-width: 1220px) {
+  /* line 175, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+  #section-content .zone .block-inner .content .welcome-banner {
+    width: 960px;
+    margin: 2em auto;
+    float: none;
+  }
+}
+@media (min-width: 740px) and (max-width: 960px) {
+  /* line 197, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+  #section-content .zone .block-inner .content .welcome-banner {
+    width: 720px;
+    margin: 2em auto;
+    float: none;
+  }
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
