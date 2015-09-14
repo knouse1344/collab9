@@ -5991,55 +5991,59 @@ p,
   display: block;
   width: 100%;
 }
-/* line 44, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 48, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+#section-content .zone .user-seg .usg-tit a {
+  font-family: 'Open Sans';
+}
+/* line 54, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 #section-content .zone .we-ban {
   width: 75%;
   text-align: center;
   margin: 2em auto 4em;
 }
-/* line 49, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 59, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 #section-content .zone .we-ban h1 {
   background-image: none !important;
   margin: 0;
   font-family: 'Open Sans' !important;
 }
-/* line 56, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 66, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 #section-content .zone .we-ban p {
   font-size: 1.5em;
   font-family: 'Open Sans';
   line-height: 1.5em;
 }
 
-/* line 74, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 84, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .footer .ft_bt_lk ul li em {
   font-family: 'Open Sans';
 }
-/* line 78, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 88, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .footer .ft_bt_lk ul li a {
   font-family: 'Open Sans';
 }
-/* line 82, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 92, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .footer .ft_bt_lk ul li p {
   font-family: 'Open Sans';
 }
-/* line 85, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 95, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .footer .ft_bt_lk ul li p a {
   font-family: 'Open Sans';
 }
-/* line 99, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 109, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .footer .soc_new_lt ul li p {
   font-family: 'Open Sans';
 }
-/* line 102, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 112, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .footer .soc_new_lt ul li p a {
   font-family: 'Open Sans';
 }
-/* line 117, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 127, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .block .block-inner .search-form .form-text, .section-footer .block .block-inner .search-form .form-submit {
   font-family: 'Open Sans' !important;
   font-weight: 400;
 }
-/* line 125, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
+/* line 135, /Users/Bryan/Desktop/projects/collab9/app/assets/stylesheets/main.scss */
 .section-footer .block .block-inner .cop_rgt p {
   font-family: 'Open Sans';
 }
